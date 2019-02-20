@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Poiret+One');
+
+.container {
+    width: 480px;
+    margin: auto;
+
+}
 
 h1 {
     color: pink;
     font-family: 'Luckiest Guy', cursive;
+    text-align: center;
 }
+
+h2 {
+    text-align: center;
+    font-family: 
+}
+
