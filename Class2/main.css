@@ -44,6 +44,12 @@ nav.navbar li:last-child {
         width: 750px;
         margin: 0px auto;
     }
+
+    nav.navbar li {
+        display: inline-block;
+        border-bottom: none;
+        padding: 0px 40px;
+    }
 }
 
 @media(min-width: 992px){
