@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Hind+Vadodara|Quicksand');
 
+body {
+    margin: 0px;
+}
+
 nav {
     width: 100%;
     background-color: white;
@@ -9,6 +13,7 @@ nav ul {
     list-style: none;
     text-align: center;
     padding-left: 0px;
+    margin: 0px;
 }
 
 nav li a {
@@ -16,4 +21,35 @@ nav li a {
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Hind Vadodara', sans-serif;
+    font-size: 20px;
+}
+
+nav li {
+    border-bottom: 1px solid rgb(155, 155, 155);
+    padding: 10px 0px;
+}
+
+@media(min-width:768px){
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        width: 100%;
+        margin: 0px;
+        border-bottom: 1px solid rgb(155, 155, 155);
+        padding-bottom: 20px;
+        
+    }
+
+    nav li  {
+        display: inline;
+        border-bottom: none;
+        padding: 0px 20px;
+    }
+
+    nav li a {
+        font-size: 25px;
+    }
 }
