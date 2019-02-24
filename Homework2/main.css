@@ -69,6 +69,8 @@ img {
 
     nav {
         margin-top: 20px;
+        position: sticky;
+        top: 0;
     }
 
     nav ul {
@@ -124,10 +126,24 @@ img {
 @media(min-width: 992px){
 
     nav ul{
-        position: sticky;
+        padding-bottom: 45px;
     }
 
     .activelink {
         border-bottom: 7px solid rgb(44, 214, 191);
+    }
+
+    nav li {
+        float: right;
+        margin-right: 15px;
+    }
+
+    nav li:first-child {
+        margin-right: 70px;
+    }
+
+    nav li a {
+        font-size: 20px;
+        padding: 8px 0px;
     }
 }
