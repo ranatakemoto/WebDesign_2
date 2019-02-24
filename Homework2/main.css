@@ -28,6 +28,12 @@ nav li a {
     padding-bottom: 13px;
 }
 
+nav li a:hover {
+    background-color: rgba(170, 170, 170, 0.466);
+    padding: 10px;
+    border-radius: 4px;
+}
+
 nav li {
     border-bottom: 1px solid rgb(155, 155, 155);
     padding: 10px 0px;
@@ -69,8 +75,6 @@ img {
 
     nav {
         margin-top: 20px;
-        position: sticky;
-        top: 0;
     }
 
     nav ul {
