@@ -12,6 +12,7 @@ nav {
     background-color: #81d8d0;
     padding-top: 20px;
     position: sticky;
+    top: 20;
 }
 
 nav ul {
@@ -46,5 +47,17 @@ nav li a:hover {
     border-bottom: 4px solid rgba(255, 255, 255, 0.664);
 }
 
+.container {
+    width: 100%;
+    margin: auto;
+    height: 600px;
+}
 
+.topimage {
+    width: 375px;
+}
 
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
