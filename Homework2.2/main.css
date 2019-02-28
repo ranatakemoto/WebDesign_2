@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|PT+Serif|Playfair+Display|Roboto');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Merriweather|PT+Serif|Playfair+Display|Roboto');
 
 body {
     margin-top: 0px;
@@ -8,11 +10,11 @@ body {
 
 nav {
     border-bottom: 2px solid #81d8d0;
-    box-shadow: 0 6px 2px -2px rgb(219, 219, 219);
+    box-shadow: 0 6px 2px -2px #5b9690c5;
     background-color: #81d8d0;
     padding-top: 20px;
     position: sticky;
-    top: 20;
+    z-index: 2
 }
 
 nav ul {
@@ -50,14 +52,65 @@ nav li a:hover {
 .container {
     width: 100%;
     margin: auto;
-    height: 600px;
+    height: 220px;
+    position: relative;
+    z-index: 0
 }
 
 .topimage {
-    width: 375px;
+    width: 100%;
+    position: absolute;
+    z-index: 1
 }
 
 h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Playfair Display', serif;
+    color: #639893;;
+    margin-top:8px;
+    margin-bottom:18px;
 }
+
+p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
+    margin: 0px 17px;
+    padding-top: 12px;
+    color: rgb(68, 68, 68);
+}
+
+.container3 {
+    background-color: #81d8d0;
+    height:135px;
+    margin-bottom: 35px;
+}
+
+.cntainer4 {
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+
+.secondimage {
+    width: 100%;
+    position: absolute;
+}
+
+.superdiv{
+    height: 1000px;
+}
+
+
+
+
+
+
+
