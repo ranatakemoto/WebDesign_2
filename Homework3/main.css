@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Merriweather|PT+Sans|PT+Serif|Playfair+Display|Roboto');
+
+
+body {
+    margin: 0px;
+}
+
+nav {
+    position: sticky;
+}
+
+h1 {
+    color:rgb(63, 63, 63);
+    font-size: 17px;
+    text-align: center;
+}
+
+spam {
+    letter-spacing: 2px;
+    color: rgb(92, 64, 37);
+    font-size: 24px;
+    padding-left: 3px;
+}
+
+.superdiv {
+    text-align: center;
+    height: 970px;
+}
+
+p {
+    color: rgb(63, 63, 63);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.linkToAbout {
+    color: white;
+    background-color: rgba(153, 109, 68, 0.945);
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.linkToAbout:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+.hours {
+    background-color: rgba(226, 202, 166, 0.521);
+    color: rgb(75, 75, 75);
+    font-size: 16px;
+    margin: 10px 50px;
+    border-radius: 3px;
+    padding: 10px 0px;
+    margin-bottom: 25px;
+}
+
+.hours > p {
+    margin: 0px;
+}
+
+.linkToProducts {
+    color: white;
+    background-color: rgba(153, 109, 68, 0.945);
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.linkToProducts:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+.linkToContact {
+    color: white;
+    background-color: rgba(153, 109, 68, 0.945);
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+.linkToContact:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+@media (max-width:768px) {
+
+    nav {
+        box-shadow: 0px 1px 4px grey;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 21px 0px 7px 0px;
+        text-align: center;
+    }
+
+    nav li a{
+        text-decoration: none;
+        font-size: 19px;
+        padding-bottom: 5px;
+        color: rgb(92, 64, 37);
+    }
+
+    nav li {
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 8px;
+        padding-left: 8px;
+    } 
+
+    nav p:first-child {
+        text-align: center;
+        padding: 1px 0px 0px 0px;
+        font-size: 22px;
+        margin: 0px;
+        background-color: rgb(92, 64, 37);
+        font-size:20px;
+        letter-spacing:2px;
+    }
+
+    nav p a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .activelink {
+        border-bottom: 3px solid rgb(92, 64, 37);
+    }
+
+    nav ul li:hover {
+        background-color: rgba(167, 167, 167, 0.432);
+        border-radius: 2px;
+    }
+
+    .mitten1 {
+        width: 100%;
+        padding-top:10px;
+    }
+
+    .imageContainer {
+        margin-top:35px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-bottom: 25px;
+    }
+
+    .small-width-50 {
+         width: 48%;
+    }
+
+    .mitten2 {
+        margin-right: 2.5px;
+        margin-bottom: 2.5px;
+    }
+
+    .mitten3 {
+        margin-left: 2.5px;
+        margin-bottom: 2.5px;
+    }
+
+    .mitten4 {
+        margin-right: 2.5px;
+    }
+
+    .mitten5 {
+        margin-left: 2.5px;
+    }
+
+    .map{
+        width: 88%;
+        margin-top:40px;
+    }
+
+    .location {
+        background-color: rgba(226, 202, 166, 0.521);
+        color: rgb(75, 75, 75);
+        font-size: 16px;
+        border-radius: 3px;
+        margin-left:20px;
+        margin-right:20px;
+        margin-top:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin-bottom:25px;
+    }
+
+    .location >p {
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+
+}
+
+@media (min-width:769px){
+    
+}
