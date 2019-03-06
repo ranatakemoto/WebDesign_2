@@ -83,6 +83,16 @@ p {
     background-color: rgb(182, 182, 182);
 }
 
+
+
+
+
+
+
+
+
+
+/************************* max-width:768px ***********************/
 @media (max-width:768px) {
 
     nav {
@@ -190,8 +200,184 @@ p {
         margin-bottom:0px;
     }
 
+    .clearfix {
+        display: none;
+    }
+
+    .clearfix2 {
+        display: none;
+    }
+
 }
 
+/************************* ends max-width:768px ***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* min-width:769px ***********************/
 @media (min-width:769px){
-    
+
+    body {
+        background-image: url(img/mitten1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .superdiv {
+        height:1230px;
+    }
+
+    .mitten1 {
+        display: none;
+    }
+
+    .clearfix {
+        clear: both;
+        height: 360px;
+    }
+
+    nav ul {
+        margin: 0px;
+        float: right;
+        margin-top:89px;
+        margin-right:0px;
+    }
+
+    nav li a{
+        text-decoration: none;
+        font-size: 19px;
+        padding-bottom: 5px;
+        color: rgb(255, 255, 255);
+    }
+
+    nav li {
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top:10px;
+        padding-bottom:10px;
+    } 
+
+    nav p:first-child {
+        font-size:50px;
+        letter-spacing:10px;
+        float: left;
+        margin-top:50px;
+        margin-left:30px;
+        font-size:66px;
+    }
+
+    nav p a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .activelink {
+        border-bottom: 2px solid white;
+    }
+
+    nav ul li:hover {
+        background-color: rgba(167, 167, 167, 0.432);
+        border-radius: 2px;
+    }
+
+    h1 {
+        font-size:24px;
+    }
+    p {
+        font-size:17px;
+    }
+
+    .hours {
+        margin-left:70px;
+        margin-right:70px;
+
+    }
+
+    .imageContainer {
+        margin-top:50px;
+        margin-bottom:35px;
+
+    }
+
+    .small-width-50 {
+        width: 48%;
+   }
+
+   .mitten2 {
+       margin-right: 2.5px;
+       margin-bottom: 2.5px;
+   }
+
+   .mitten3 {
+       margin-left: 2.5px;
+       margin-bottom: 2.5px;
+   }
+
+   .mitten4 {
+       margin-right: 2.5px;
+   }
+
+   .mitten5 {
+       margin-left: 2.5px;
+   }
+
+   .linkToAbout {
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+   }
+
+   .linkToProducts {
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+   }
+
+   .clearfix2 {
+       clear: both;
+   }
+
+   .map{
+    width:45%;
+    margin-top:40px;   
+    float: left;
+    margin-left:38px;
+    }
+
+    .location {
+        margin-top:0px;
+        margin-top:90px;
+        margin-right:25px;
+        padding-right:0px;
+        padding-left:0px;
+        float:right;
+        width:369.75px;
+        margin-bottom:42px;
+        background-color:#f0e3d0;
+        border-radius:3px;
+        margin-bottom:26px;
+        margin-top:80px;
+    }
+
+    .linkToContact {
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
 }
+
+/************ ends min-width:769px ***********************/
