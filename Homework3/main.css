@@ -71,17 +71,8 @@ p {
     background-color: rgb(182, 182, 182);
 }
 
-.linkToContact {
-    color: white;
-    background-color: rgba(153, 109, 68, 0.945);
-    text-decoration: none;
-    padding: 7px 10px;
-    border-radius: 3px;
-}
 
-.linkToContact:hover {
-    background-color: rgb(182, 182, 182);
-}
+
 
 
 
@@ -95,8 +86,16 @@ p {
 /************************* max-width:768px ***********************/
 @media (max-width:768px) {
 
+    body {
+        margin-top:0px;
+        padding-top:0px;
+    }
+
     nav {
         box-shadow: 0px 1px 4px grey;
+        position:fixed;
+        width:100%;
+        background-color:#ffffffe6;
     }
 
     nav ul {
@@ -146,6 +145,7 @@ p {
     .mitten1 {
         width: 100%;
         padding-top:10px;
+        margin-top:77px;
     }
 
     .imageContainer {
@@ -180,6 +180,7 @@ p {
     .map{
         width: 88%;
         margin-top:40px;
+        margin-bottom:40px;
     }
 
     .location {
@@ -223,6 +224,10 @@ p {
 
 
 
+
+
+
+
 /************************* min-width:769px ***********************/
 @media (min-width:769px){
 
@@ -230,6 +235,15 @@ p {
         background-image: url(img/mitten1.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
+        margin-top:0px;
+        padding-top:0px;
+    }
+
+    nav {
+        position:fixed;
+        width:100%;
+        background-color:#99876c4f;
+        height:101px;
     }
 
     .superdiv {
@@ -242,14 +256,14 @@ p {
 
     .clearfix {
         clear: both;
-        height: 360px;
+        height:571px;
     }
 
     nav ul {
         margin: 0px;
         float: right;
-        margin-top:89px;
         margin-right:0px;
+        margin-top:64px;
     }
 
     nav li a{
@@ -272,9 +286,9 @@ p {
         font-size:50px;
         letter-spacing:10px;
         float: left;
-        margin-top:50px;
+        margin-top:23px;
         margin-left:30px;
-        font-size:66px;
+        font-size:66px;   
     }
 
     nav p a {
@@ -351,7 +365,7 @@ p {
    }
 
    .map{
-    width:45%;
+    width:43%;
     margin-top:40px;   
     float: left;
     margin-left:38px;
@@ -360,7 +374,6 @@ p {
     .location {
         margin-top:0px;
         margin-top:90px;
-        margin-right:25px;
         padding-right:0px;
         padding-left:0px;
         float:right;
@@ -370,14 +383,262 @@ p {
         border-radius:3px;
         margin-bottom:26px;
         margin-top:80px;
+        margin-right:13px;
     }
 
-    .linkToContact {
-        padding-left:20px;
-        padding-right:20px;
-        padding-top:10px;
-        padding-bottom:10px;
-    }
 }
 
 /************ ends min-width:769px ***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* min-width:850px ***********************/
+@media (min-width:850px){
+    .location {
+        margin-right: 40px;
+    }
+
+    .clearfix {
+        height:606px;
+    }
+
+    .map {
+        margin-bottom: 40px;
+    }
+}
+/************************* ends min-width:850px ***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* min-width:900px ***********************/
+@media (min-width:900px){
+
+    .clearfix {
+        height:660px;
+    }
+
+    nav ul {
+        margin-right:20px;
+    }
+
+    .clearfix {
+        height:690px;
+    }
+
+    .map {
+        width:48%;
+    }
+
+    nav p:first-child {
+        margin-left:40px;
+    }
+}
+/************************* ends min-width:900px ***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* min-width: 1030px ***********************/
+@media (min-width:1030px){
+
+    .clearfix {
+        height:747px;
+    }
+
+    .hours {
+        margin-left:150px;
+        margin-right:150px;
+    }
+
+    .location {
+        margin-top:103px;
+    }
+
+}
+/************************* ends min-width: 1030px *********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* min-width: 1110px ***********************/
+@media (min-width:1110px){
+
+    .clearfix {
+        height:810px;
+    }
+
+    h1 {
+        font-size:28px;
+    }
+
+    spam {
+        font-size: 37px;
+    }
+
+    p {
+        font-size:20px;
+    }
+
+    .linkToAbout {
+        font-size:20px;
+    }
+
+    .linkToProducts {
+        font-size:20px;
+    }
+
+    .hours {
+        margin-bottom:43px;
+    }
+
+    .map {
+        margin-top:61px;
+    }
+
+    .location {
+        margin-top:147px;
+        width:436.75px;
+    }
+}
+/************************* ends min-width: 1110px *********
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* min-width: 1210px ***********************/
+@media (min-width:1210px){
+
+    .clearfix {
+        height:870px;
+    }
+
+}
+/************************* ends min-width: 1210px ********************/
+
+
+
+
+
+
+
+
+
+
+
+/************************* min-width: 1300px ***********************/
+@media (min-width:1300px){
+
+    .clearfix {
+        height:925px;
+    }
+
+    .hours {
+        border-left-style:solid;
+        margin-left:220px;
+        border-left-width:0px;
+        margin-right:220px;
+
+    }
+
+    .location {
+        width:523.75px;
+        margin-right:45px;
+    }
+
+    .map {
+        margin-left:45px;
+    }
+
+    .linkToAbout {
+        padding-top:13px;
+        padding-bottom:13px;
+        padding-left:35px;
+        padding-right:35px;
+    }
+
+    .linkToProducts {
+        padding-top:13px;
+        padding-bottom:13px;
+        padding-left:35px;
+        padding-right:35px;
+    }
+
+    nav p:first-child {
+        margin-left:60px;
+    }
+
+    nav ul {
+        margin-right:50px;
+    }
+
+}
+/************************* ends min-width: 1300px ********************/
