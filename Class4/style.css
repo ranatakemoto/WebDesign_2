@@ -1,0 +1,32 @@
+.container {
+    margin: auto;
+}
+
+.content {
+    padding: 0px 10px;
+    min-height: 480px;
+    border-bottom: 2px solid grey;
+    position: relative;
+}
+
+.content .img-container{
+    min-height: 150px;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content .abs-pos {
+    position: absolute;
+}
+#WWOverlap {
+    top: 30px;
+}
+
+#WWTitle {
+    top: 150px;
+    right: 12px;
+    color: antiquewhite;
+    text-shadow: 1px 8px 4px #000926;
+}
