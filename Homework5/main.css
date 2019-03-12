@@ -1,8 +1,112 @@
-body {
-    margin: 0px;
-    background-color: pink;
+.container {
+    padding-top: 70px;
 }
 
-.container {
+body {
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.836);
     width: 100%;
+    position: fixed;
+    box-shadow: 1px 0px 3px grey;
+}
+
+nav ul {
+    text-align: center;
+    padding-left:0px;
+    margin-bottom:9px;
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: rgb(66, 66, 66);
+    padding-bottom: 7px;
+}
+
+.activelink {
+    border-bottom: 3px solid rgb(0, 162, 255);
+}
+
+nav li a:hover {
+    border-bottom: 3px solid rgb(122, 206, 255);
+}
+.floater-section {
+    float: left;
+    width: 100%;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 12px;
+}
+
+.content {
+    padding: 0px 10px;
+}
+
+clearfix {
+    clear: both;
+}
+
+@media (min-width:450px) {
+    .small-width-50 {
+        width: 50%;
+        min-height: 350px;
+        margin-top: 30px;
+    }
+
+    .img-container {
+        min-height: 190px;
+    }
+
+    p {
+        margin-bottom: 0px;
+    }
+
+    #luna-content {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width:768px) {
+    .med-width-33 {
+        width: 33%;
+    }
+
+    nav li {
+        padding: 0px 40px;
+    }
+
+    #luna-content {
+        padding-top: 200px;
+    }
+
+    #usagi-content {
+        text-align: center;
+    }
+
+    #usagi-content p {
+        padding: 0px 70px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .large-width-25 {
+        width: 25%;
+        float: left;
+    }
+
 }
