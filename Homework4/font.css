@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab|Slabo+27px');
 
 nav li a {
     font-family: 'Oswald', sans-serif;
+}
+
+p{
+
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+
+    font-family: 'Slabo 27px', serif;
+
+
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+
+    font-family: 'Slabo 27px', serif;
 }
