@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Merriweather|PT+Sans|PT+Serif|Playfair+Display|Roboto');
-
-
 body {
     margin: 0px;
 }
@@ -24,7 +21,6 @@ spam {
 
 .superdiv {
     text-align: center;
-    height: 970px;
 }
 
 p {
@@ -74,15 +70,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
 /************************* max-width:768px ***********************/
 @media (max-width:768px) {
 
@@ -93,7 +80,7 @@ p {
 
     nav {
         box-shadow: 0px 1px 4px grey;
-        position:fixed;
+        position: fixed;
         width:100%;
         background-color:#ffffffe6;
     }
@@ -232,9 +219,6 @@ p {
 @media (min-width:769px){
 
     body {
-        background-image: url(img/mitten1.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
         margin-top:0px;
         padding-top:0px;
     }
@@ -387,258 +371,3 @@ p {
     }
 
 }
-
-/************ ends min-width:769px ***********************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************* min-width:850px ***********************/
-@media (min-width:850px){
-    .location {
-        margin-right: 40px;
-    }
-
-    .clearfix {
-        height:606px;
-    }
-
-    .map {
-        margin-bottom: 40px;
-    }
-}
-/************************* ends min-width:850px ***********************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************* min-width:900px ***********************/
-@media (min-width:900px){
-
-    .clearfix {
-        height:660px;
-    }
-
-    nav ul {
-        margin-right:20px;
-    }
-
-    .clearfix {
-        height:690px;
-    }
-
-    .map {
-        width:48%;
-    }
-
-    nav p:first-child {
-        margin-left:40px;
-    }
-}
-/************************* ends min-width:900px ***********************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************* min-width: 1030px ***********************/
-@media (min-width:1030px){
-
-    .clearfix {
-        height:747px;
-    }
-
-    .hours {
-        margin-left:150px;
-        margin-right:150px;
-    }
-
-    .location {
-        margin-top:103px;
-    }
-
-}
-/************************* ends min-width: 1030px *********
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************* min-width: 1110px ***********************/
-@media (min-width:1110px){
-
-    .clearfix {
-        height:810px;
-    }
-
-    h1 {
-        font-size:28px;
-    }
-
-    spam {
-        font-size: 37px;
-    }
-
-    p {
-        font-size:20px;
-    }
-
-    .linkToAbout {
-        font-size:20px;
-    }
-
-    .linkToProducts {
-        font-size:20px;
-    }
-
-    .hours {
-        margin-bottom:43px;
-    }
-
-    .map {
-        margin-top:61px;
-    }
-
-    .location {
-        margin-top:147px;
-        width:436.75px;
-    }
-}
-/************************* ends min-width: 1110px *********
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************* min-width: 1210px ***********************/
-@media (min-width:1210px){
-
-    .clearfix {
-        height:870px;
-    }
-
-}
-/************************* ends min-width: 1210px ********************/
-
-
-
-
-
-
-
-
-
-
-
-/************************* min-width: 1300px ***********************/
-@media (min-width:1300px){
-
-    .clearfix {
-        height:925px;
-    }
-
-    .hours {
-        border-left-style:solid;
-        margin-left:220px;
-        border-left-width:0px;
-        margin-right:220px;
-
-    }
-
-    .location {
-        width:523.75px;
-        margin-right:45px;
-    }
-
-    .map {
-        margin-left:45px;
-    }
-
-    .linkToAbout {
-        padding-top:13px;
-        padding-bottom:13px;
-        padding-left:35px;
-        padding-right:35px;
-    }
-
-    .linkToProducts {
-        padding-top:13px;
-        padding-bottom:13px;
-        padding-left:35px;
-        padding-right:35px;
-    }
-
-    nav p:first-child {
-        margin-left:60px;
-    }
-
-    nav ul {
-        margin-right:50px;
-    }
-
-}
-/************************* ends min-width: 1300px ********************/
