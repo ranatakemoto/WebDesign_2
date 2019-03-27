@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <nav>
+
+        <p><a href="#">mitten</a></p>
+        
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/products.html">Products</a></li>
+            <li><a href="#" class="activelink">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <div class="contact-container">
+        <div class="contact-second-container">
+
+
+            <form action="contact.php" method="GET">
+                <label for="userNameInput">Your Name</label><br/>
+                <input type="text" name="username" class="form-input" placeholder="First Name">
+                <input type="text" name="username" class="form-input" placeholder="Last Name">
+            </form>
+
+            <div class="contact-space"></div>
+
+            <form action="contact.php" method="GET">
+                <label for="userEmailInput">Your Email Address</label><br/>
+                <input type="text" name="useremail" class="form-input" placeholder="emailaddress@email.com">
+            </form>
+
+            <div class="contact-space"></div>
+
+            <form action="contact.php" method="GET">
+                <label for="messageInput">Your Email Address</label><br/>
+                <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
+            </form>
+
+            <input type="Submit" value="Submit" class="submit">
+
+        </div>
+    </div>
+
+</body>
+</html>
