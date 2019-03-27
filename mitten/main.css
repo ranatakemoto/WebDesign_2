@@ -75,6 +75,39 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/************************* smaller-width-100 ***************************/
+@media (max-width:450px) {
+    .smaller-width-100 {
+        width: 100%;
+    }
+}
+/*********************** ends smaller-width-100 *************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************************* max-width:768px (iPad) ***********************/
 @media (max-width:768px) {
 
@@ -463,6 +496,7 @@ p {
 
    .map{
         margin-right:5px;
+        margin-bottom: 100px;
     }
 
     .location {
@@ -498,6 +532,21 @@ p {
 
 
 /****************************** min-width:1000px ****************************/
-@media (min-width:640px){
+@media (min-width:1000px){
+    .clearfix {
+        clear: both;
+    }
 
+    .clearfix2{
+        height:85px;
+    }
+
+    .map{
+        margin-left:20px;
+    }
+
+    .location{
+        margin-left:20px;
+    }
 }
+/****************************** ends min-width:1000px ****************************/
