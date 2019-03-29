@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+
+
 body {
     margin: 0px;
 }
@@ -9,8 +14,9 @@ nav {
 /* iPhone 6 font size */
 h1 {
     color:rgb(63, 63, 63);
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
+    font-family: 'Crimson Text', serif;
 }
 
 /* mitten */
@@ -28,21 +34,33 @@ spam {
 
 p {
     color: rgb(63, 63, 63);
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
+    font-family: 'Crimson Text', serif;
 }
+
+.superdiv > p:nth-child(2) {
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+
 
 /* button */
 .linkToAbout {
     color: white;
     background-color: rgba(153, 109, 68, 0.945);
     text-decoration: none;
-    padding: 7px 10px;
     border-radius: 3px;
+    font-family: 'Crimson Text', serif;
+    padding-top: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 8px;
+    font-size: 17px;
 }
 
 .linkToAbout:hover {
-    background-color: rgb(182, 182, 182);
+    box-shadow: inset 0 0 10px #202020ad;
 }
 
 .hours {
@@ -52,7 +70,7 @@ p {
     margin: 10px 50px;
     border-radius: 3px;
     padding: 10px 0px;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .hours > p {
@@ -64,12 +82,17 @@ p {
     color: white;
     background-color: rgba(153, 109, 68, 0.945);
     text-decoration: none;
-    padding: 7px 10px;
     border-radius: 3px;
+    font-family: 'Crimson Text', serif;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 .linkToProducts:hover {
-    background-color: rgb(182, 182, 182);
+    box-shadow: inset 0 0 10px #202020ad;
 }
 
 
@@ -104,7 +127,7 @@ p {
 
     nav ul {
         margin: 0px;
-        padding: 21px 0px 7px 0px;
+        padding: 14px 0px 7px 0px;
         text-align: center;
     }
 
@@ -113,6 +136,7 @@ p {
         font-size: 19px;
         padding-bottom: 5px;
         color: rgb(92, 64, 37);
+        font-family: 'Crimson Text', serif;
     }
 
     nav li {
@@ -124,7 +148,7 @@ p {
 
     nav p:first-child {
         text-align: center;
-        padding: 1px 0px 0px 0px;
+        padding: 0px;
         font-size: 22px;
         margin: 0px;
         background-color: rgb(92, 64, 37);
@@ -267,12 +291,65 @@ p {
     }
 
     .form-input {
-        width: 290px;
+        width: 283px;
+        height:24px;
+        margin-top:5px;
+        border-radius: 5px;
+        border: 2px solid rgba(160, 160, 160, 0.521);
+    }
+
+    .form-input:hover {
+        border: 2px solid rgb(212, 185, 143);
+    }
+
+    input {
+        font-size: 12px;
+        padding-left: 10px;
+        color: rgb(63, 63, 63);
     }
 
     label {
         color: rgb(63, 63, 63);
+        font-family: 'Crimson Text', serif;
     }
+
+    .firstname {
+        margin-bottom:3px;
+    }
+
+    textarea {
+        border: 2px solid #cdcdcd;
+        padding-left: 10px;
+        color: #3f3f3f;
+        height: 145px;
+        margin-bottom: 18px;
+        margin-top: 6px;
+        border-radius: 5px;
+        padding-top: 8px;
+        width: 283px;
+    }
+
+    textarea:hover {
+        border: 2px solid rgb(212, 185, 143);
+    }
+
+    .submit {
+        padding-top: 8px;
+        padding-bottom: 6px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 5px;
+        background-color:rgba(153, 109, 68, 0.945);
+        color: white;
+        border: 2px solid rgba(153, 109, 68, 0.945);
+        margin: 2px auto;
+        display: inherit;
+    }
+
+    .submit:hover {
+        box-shadow: inset 0 0 10px #202020ad;
+    }
+
 
 }
 /*********************** ends smaller-width-100 (max-width-450px) *************************/
