@@ -95,9 +95,97 @@ p {
     box-shadow: inset 0 0 10px #202020ad;
 }
 
+/* contact.html */
+.contact-container {
+    width:100%;
+    margin: auto;
+    padding-top:100px;
+}
+
+.contact-second-container{
+    width:310px;
+    margin:auto;
+    background-color:rgba(226, 202, 166, 0.521);
+    padding-top:34px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.contact-space {
+    width: 100%;
+    height: 20px;
+}
+
+textarea {
+    width: 290px;
+}
+
+.form-input {
+    width: 283px;
+    height:24px;
+    margin-top:5px;
+    border-radius: 5px;
+    border: 2px solid rgba(160, 160, 160, 0.521);
+}
+
+.form-input:hover {
+    border: 2px solid rgb(212, 185, 143);
+}
+
+input {
+    font-size: 12px;
+    padding-left: 10px;
+    color: rgb(63, 63, 63);
+}
+
+label {
+    color: rgb(63, 63, 63);
+    font-family: 'Crimson Text', serif;
+}
+
+.firstname {
+    margin-bottom:3px;
+}
+
+textarea {
+    border: 2px solid #cdcdcd;
+    padding-left: 10px;
+    color: #3f3f3f;
+    height: 145px;
+    margin-bottom: 18px;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding-top: 8px;
+    width: 283px;
+}
+
+textarea:hover {
+    border: 2px solid rgb(212, 185, 143);
+}
+
+.submit {
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+    background-color:rgba(153, 109, 68, 0.945);
+    color: white;
+    border: 2px solid rgba(153, 109, 68, 0.945);
+    margin: 2px auto;
+    display: inherit;
+}
+
+.submit:hover {
+    box-shadow: inset 0 0 10px #202020ad;
+}
+/* ends contact.html */
 
 
-
+/* about.html */
+.about-container {
+    padding-top: 100px;
+}
 
 
 
@@ -266,91 +354,6 @@ p {
     .smaller-width-100 {
         width: 100%;
     }
-
-    .contact-container {
-        width:100%;
-        margin: auto;
-        padding-top:100px;
-    }
-
-    .contact-second-container{
-        width:310px;
-        margin:auto;
-        background-color:rgba(226, 202, 166, 0.521);
-        padding-top:34px;
-        padding-left: 10px;
-    }
-
-    .contact-space {
-        width: 100%;
-        height: 20px;
-    }
-
-    textarea {
-        width: 290px;
-    }
-
-    .form-input {
-        width: 283px;
-        height:24px;
-        margin-top:5px;
-        border-radius: 5px;
-        border: 2px solid rgba(160, 160, 160, 0.521);
-    }
-
-    .form-input:hover {
-        border: 2px solid rgb(212, 185, 143);
-    }
-
-    input {
-        font-size: 12px;
-        padding-left: 10px;
-        color: rgb(63, 63, 63);
-    }
-
-    label {
-        color: rgb(63, 63, 63);
-        font-family: 'Crimson Text', serif;
-    }
-
-    .firstname {
-        margin-bottom:3px;
-    }
-
-    textarea {
-        border: 2px solid #cdcdcd;
-        padding-left: 10px;
-        color: #3f3f3f;
-        height: 145px;
-        margin-bottom: 18px;
-        margin-top: 6px;
-        border-radius: 5px;
-        padding-top: 8px;
-        width: 283px;
-    }
-
-    textarea:hover {
-        border: 2px solid rgb(212, 185, 143);
-    }
-
-    .submit {
-        padding-top: 8px;
-        padding-bottom: 6px;
-        padding-left: 16px;
-        padding-right: 16px;
-        border-radius: 5px;
-        background-color:rgba(153, 109, 68, 0.945);
-        color: white;
-        border: 2px solid rgba(153, 109, 68, 0.945);
-        margin: 2px auto;
-        display: inherit;
-    }
-
-    .submit:hover {
-        box-shadow: inset 0 0 10px #202020ad;
-    }
-
-
 }
 /*********************** ends smaller-width-100 (max-width-450px) *************************/
 
@@ -413,6 +416,16 @@ p {
     .clearfix {
         display: none;
     }
+
+    /* contact.html */
+    .contact-second-container{
+        width: 440px;
+    }
+
+    .contact-content {
+        width: 310px;
+        margin: auto;
+    }
 }
 /************************* ends min-width:450px ***************************/
 
@@ -466,6 +479,10 @@ p {
 
     .clearfix {
         clear: both;
+    }
+
+    .contact-second-container {
+        width: 600px;
     }
 }
 /**************************** ends min-width:640px **************************/
@@ -629,6 +646,31 @@ p {
         clear: both;
     }
 
+    .contact-second-container {
+        margin-top: 41px;
+    }
+
+    nav ul {
+        font-family: 'Crimson Text', serif;
+        margin-top: 52px;        
+    }
+
+    nav li a {
+        font-size: 23px;
+    }
+
+    nav p:first-child {
+        margin-top: 15px;
+    }
+
+    body > nav:nth-child(1) > ul:nth-child(2) > li:nth-child(4) {
+        padding-right: 50px;
+    }
+
+    .contact-nav {
+        background-color: #99876c96;
+    }
+
 }
 /***************************** ends min-width:769px ****************************/
 
@@ -661,6 +703,73 @@ p {
 
     .location{
         margin-left:20px;
+    }
+
+    .contact-second-container {
+        width: 790px;
+        margin-top: 41px;
+        padding-top: 46px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .firstname {
+        width: 345px;
+        height: 35px;
+    }
+
+    .form-input {
+        width: 345px;
+        height: 35px;
+    }
+
+    textarea {
+        width: 345px;
+        height: 200px;
+    }
+
+    .contact-content {
+        width: 360px;
+    }
+
+    .contact-space {
+        height: 35px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    spam {
+        font-size: 39px;
+    }
+
+    .linkToAbout {
+        font-size: 21px;
+        padding-bottom: 11px;
+    }
+
+    .linkToProducts {
+        font-size: 21px;
+        padding-bottom: 11px;
+    }
+
+    .imageContainer {
+        margin-top: 70px;
+    }
+
+    nav p:first-child {
+        padding-left: 48px;
+    }
+
+    input {
+        font-size: 14px;
     }
 }
 /****************************** ends min-width:1000px ****************************/
