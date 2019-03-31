@@ -185,8 +185,27 @@ textarea:hover {
 /* about.html */
 .about-container {
     padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.mittenbuilding {
+    width: 100%;
+}
+
+.aboutus {
+    margin-bottom: 35px;
+}
+
+.teamhead {
+    font-size: 22px;
+    border-top: 2px solid rgba(196, 139, 51, 0.23);
+    border-bottom: 2px solid rgba(196, 139, 51, 0.23);
+    color: rgb(92, 64, 37);
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
