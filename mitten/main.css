@@ -195,6 +195,8 @@ textarea:hover {
 
 .aboutus {
     margin-bottom: 35px;
+    padding-left: 5px;
+    font-family: 'Crimson Text', serif;
 }
 
 .teamhead {
@@ -205,6 +207,7 @@ textarea:hover {
     padding-left: 0px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Crimson Text', serif;
 }
 
 .teamimg-container {
@@ -212,7 +215,27 @@ textarea:hover {
     margin: auto;
 }
 
+h2 {
+    color: rgba(153, 109, 68, 0.945);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    margin-top: 0px;
+}
 
+.title {
+    margin-bottom: 0px;
+    font-family: 'Crimson Text', serif;
+}
+
+.aboutteam {
+    padding-left: 5px;
+    font-family: 'Crimson Text', serif;
+}
+
+p.aboutteam:nth-child(11) {
+    margin-bottom: 45px;
+}
 
 
 
