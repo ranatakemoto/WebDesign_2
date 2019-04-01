@@ -184,7 +184,7 @@ textarea:hover {
 
 /*********** about.html ***********/
 .about-container {
-    padding-top: 100px;
+    padding-top: 87px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -252,6 +252,7 @@ p.aboutteam:nth-child(11) {
     margin-right: 10px;
     padding-bottom: 30px;
 }
+
 /*********** ends about.html ***********/
 
 
@@ -533,6 +534,10 @@ p.aboutteam:nth-child(11) {
     .contact-second-container {
         width: 600px;
     }
+
+    .centered-content {
+        text-align: center;
+    }
 }
 /**************************** ends min-width:640px **************************/
 
@@ -583,8 +588,8 @@ p.aboutteam:nth-child(11) {
     nav li {
         list-style-type: none;
         display: inline-block;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
         padding-top:10px;
         padding-bottom:10px;
     } 
@@ -710,12 +715,40 @@ p.aboutteam:nth-child(11) {
     }
 
     body > nav:nth-child(1) > ul:nth-child(2) > li:nth-child(4) {
-        padding-right: 50px;
+        padding-right: 35px;
     }
 
     .contact-nav {
         background-color: #99876c96;
     }
+
+    .team-floater {
+        float: left;
+        width: 50%;
+    }
+
+    .about-container {
+        padding-top: 101px;
+    }
+
+    .clearfix3 {
+        clear: both;
+    }
+
+    .team1 {
+        min-height: 300px;
+        padding-bottom: 40px;
+    }
+
+    .team2 {
+        padding-top: 25px;
+    }
+
+    .mittenbuilding {
+        width: 80%;
+        margin: auto;
+    }
+    
 
 }
 /***************************** ends min-width:769px ****************************/
@@ -814,6 +847,20 @@ p.aboutteam:nth-child(11) {
 
     input {
         font-size: 14px;
+    }
+
+    body > nav:nth-child(1) > ul:nth-child(2) > li:nth-child(4) {
+        padding-right: 50px;
+    }
+
+    nav ul li {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    .team1 {
+        padding-top: 15px;
+        padding-bottom: 29px;
     }
 }
 /****************************** ends min-width:1000px ****************************/
