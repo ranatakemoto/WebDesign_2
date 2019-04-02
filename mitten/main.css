@@ -319,7 +319,11 @@ sand-img-container{
 
 .width-100 {
     width: 100%;
+    margin-bottom: 5px;
+    border-radius: 3px;
 }
+/*********** ends sandwiches.html ***********/
+
 
 
 
@@ -844,17 +848,19 @@ sand-img-container{
         margin: auto;
     }
 
-    /*********** menus.html ***********/
 
-    .menus-container {
-        width: 900px;
-    }
-    .menus-content {
-        position: none;
+    /*********** sandwiches.html ***********/
+    .width-50 {
         width: 47%;
         float: left;
-        margin: 0px 10px;
+        margin: 8px 8px;
     }
+    
+    .sandwiches-container {
+        width: 760px;
+        padding-top: 120px;
+    }
+    /*********** ends sandwiches.html ***********/
     
 
 }
@@ -969,6 +975,25 @@ sand-img-container{
         padding-top: 15px;
         padding-bottom: 29px;
     }
+
+     /*********** menus.html ***********/
+     .menus-container {
+        width: 900px;
+    }
+    .menus-content {
+        position: none;
+        width: 47%;
+        float: left;
+        margin: 0px 10px;
+    }
+    /*********** ends menus.html ***********/
+
+    /*********** sandwiches.html ***********/
+    
+    .sandwiches-container {
+        width: 980px;
+    }
+    /*********** ends sandwiches.html ***********/
 }
 /****************************** ends min-width:1000px ****************************/
 
