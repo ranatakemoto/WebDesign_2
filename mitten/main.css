@@ -308,6 +308,11 @@ nav {
 /*********** sandwiches.html ***********/
 .sandwiches-container {
     padding-top: 89px;
+    text-align: center;
+}
+
+sand-img-container{
+    padding: 10px;
 }
 
 .width-100 {
