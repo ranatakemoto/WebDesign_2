@@ -255,8 +255,39 @@ p.aboutteam:nth-child(11) {
 
 /*********** ends about.html ***********/
 
+/*********** menus.html ***********/
+.menus-container {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+.menus-content {
+    position: relative;
+    min-height: 350px;
+}
 
+.sandwhiches-menu {
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    filter: opacity(70%);
+}
+
+.menus-content p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -62px;
+    margin-top: -81px;
+    font-size: 26px;
+    text-shadow:5px 5px 4px black;
+    color: white
+}
 
 
 
