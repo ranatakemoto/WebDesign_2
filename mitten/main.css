@@ -267,10 +267,11 @@ p.aboutteam:nth-child(11) {
 
 .menus-content {
     position: relative;
-    min-height: 350px;
+    min-height: 240px;
+    margin-bottom: 10px;
 }
 
-.sandwhiches-menu {
+a .sandwhiches-menu {
     border-radius: 5px;
     width: 100%;
     position: absolute;
@@ -280,14 +281,25 @@ p.aboutteam:nth-child(11) {
 
 .menus-content p {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -62px;
-    margin-top: -81px;
+    margin-left: 116px;
+    margin-top: 88px;;
     font-size: 26px;
     text-shadow:5px 5px 4px black;
     color: white
 }
+
+.menus-content:nth-child(2) > p:nth-child(2) {
+    margin-left: 148px;
+}
+
+.menus-content:nth-child(3) > p:nth-child(2) {
+    margin-left: 134px;
+}
+
+.menus-content:nth-child(4) > p:nth-child(2) {
+    margin-left: 134px;
+}
+
 
 
 
