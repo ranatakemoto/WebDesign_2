@@ -300,7 +300,20 @@ a .sandwhiches-menu {
     margin-left: 134px;
 }
 
+nav {
+    z-index: 10;
+}
+/*********** ends menus.html ***********/
 
+/*********** sandwiches.html ***********/
+.sandwiches-container {
+    width: 100%;
+    padding-top: 89px;
+}
+
+.width-100 {
+    width: 100%;
+}
 
 
 
@@ -581,6 +594,39 @@ a .sandwhiches-menu {
     .centered-content {
         text-align: center;
     }
+
+    /*********** menus.html ***********/
+    .menus-container{
+        width: 434px;
+    }
+
+    .menus-content {
+        min-height: 300px;
+    }
+
+    .menus-content p {
+        font-size: 29px;
+        margin-left: 148px;
+        margin-top: 114px;
+    }
+
+    .menus-content:nth-child(2) > p:nth-child(2) {
+        margin-left: 185px;
+    }
+
+    .menus-content:nth-child(3) > p:nth-child(2) {
+        margin-left: 166px;
+    }
+
+    .menus-content:nth-child(4) > p:nth-child(2) {
+        margin-left: 173px;
+    }
+
+    .menus-container {
+        padding-top: 120px;
+    }
+    /*********** ends menus.html ***********/
+
 }
 /**************************** ends min-width:640px **************************/
 
@@ -790,6 +836,18 @@ a .sandwhiches-menu {
     .mittenbuilding {
         width: 80%;
         margin: auto;
+    }
+
+    /*********** menus.html ***********/
+
+    .menus-container {
+        width: 900px;
+    }
+    .menus-content {
+        position: none;
+        width: 47%;
+        float: left;
+        margin: 0px 10px;
     }
     
 
