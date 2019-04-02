@@ -309,6 +309,8 @@ nav {
 .sandwiches-container {
     padding-top: 89px;
     text-align: center;
+    width: 375px;
+    margin: auto;
 }
 
 sand-img-container{
