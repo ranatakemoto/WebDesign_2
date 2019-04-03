@@ -976,6 +976,10 @@ sand-img-container{
         padding-bottom: 29px;
     }
 
+    .mitten1 {
+        height: 670px;
+    }
+
      /*********** menus.html ***********/
      .menus-container {
         width: 900px;
@@ -989,7 +993,7 @@ sand-img-container{
     /*********** ends menus.html ***********/
 
     /*********** sandwiches.html ***********/
-    
+
     .sandwiches-container {
         width: 980px;
     }
