@@ -7,6 +7,9 @@
     text-align: center;
     margin: auto;
     margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-radius: 10px;
 }
 
 #container > p:nth-child(2) {
@@ -36,4 +39,41 @@
     background-color: whitesmoke;
     border: none;
     box-shadow: 1px 2px 3px #b6b6b6;
+}
+
+.button-container > button:nth-child(1):hover {
+    background-color: pink;
+}
+
+.button-container > button:nth-child(2):hover {
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 18px;
+    color: #686868;
+    margin-bottom: 35px;
+}
+
+#header {
+    visibility: hidden;
+}
+
+.button-container > button:nth-child(3) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: 1px 2px 3px #b6b6b6;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.button-container > button:nth-child(3):hover {
+    background-color: rgb(255, 106, 106);
 }

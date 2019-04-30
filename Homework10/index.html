@@ -6,30 +6,47 @@
     <title>Homework10</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script>
-        var name = prompt('What is your name?', ' ');
 
-        var changeBackground = function(){
-            var body = getElementById('container');
-            body.style.backgroundColor = 'pink';
-        }
-
-        var bcButton = document.getElementById('triggerbutton1');
-        bcButton.addEventListener('click', changeBackground);
-
-    </script>
 </head>
+
 <body>
     <div id="container">
         <script>
         document.write('<p>Hello, ' + name + '!</p>');
         </script>
 
+        <h1 id="header">Welcome to my page.</h1>
+
         <div class="button-container">
-            <button id=triggerbutton1>Click me!</button>
-            <button id="triggerbutton2">Click me!</button>
+            <button id=button1>Click me!</button>
+            <button id="button2">Click me!</button>
+            <button id="button3">Hover me!</button>
         </div>
     </div>
+
+    <script>
+
+        var name = prompt('What is your name?', ' ');    
+
+        var bcButton = document.getElementById('button1');
+        bcButton.addEventListener('click', function(){
+            document.getElementById('container').style.backgroundColor = 'pink';
+            document.getElementById('header').style.visibility = 'hidden';
+        });
+
+        var hdButton = document.getElementById('button2');
+        hdButton.addEventListener('click',function(){
+            document.getElementById('header').style.visibility = 'visible';
+        });
+
+        document.getElementById('button3').onmouseover = function(){
+            document.getElementById('container').style.backgroundColor = 'skyblue';
+            document.getElementById('header').style.color = 'white';
+        }
+
+
+
+    </script>
     
 </body>
 </html>
