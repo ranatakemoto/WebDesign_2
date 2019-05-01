@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <nav>
+        <img src="https://seeklogo.com/images/P/pepsi-logo-94D7DEF922-seeklogo.com.png" alt="Pepsi logo" id="logo">
+        <div class="line-container">
+            <div class="line1"></div> 
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>  
+    </nav>
+    
+    <div class="submenu-container" id="submenu">
+        <ul id="ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+    <header>
+        <!-- <h1>Hello, <span id="name"></span></h1> -->
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer></footer>
+
+</div>
+    
+    <script>
+        // var name = prompt("What's your name?", " ");
+        // document.getElementById('name').innerText = name;
+
+        var openSubmenu = function() {
+
+            var currentDisplay = document.getElementById('submenu').style.display;
+
+            if(currentDisplay === 'none'){
+                document.getElementById('submenu').style.display = 'block';
+            }
+            else {
+                document.getElementById('submenu').style.display = 'none';
+            }
+        }
+
+        document.getElementById('line-container').addEventListener('click', openSubmenu);
+
+
+    </script>
+</body>
+</html>
