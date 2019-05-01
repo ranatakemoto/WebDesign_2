@@ -39,6 +39,23 @@
             document.getElementById('header').style.visibility = 'visible';
         });
 
+        // var toggleHeader = function(){
+            // var header = document.getElementById('header');
+            // var headerDisplay = header.style.visibility;
+            // if(headerDisplay === 'hidden'){
+                // headerDisplay === 'visible';
+            // }else {
+            // headerDisplay === 'hidden';
+        // }
+        // }
+      
+
+        var hdButton = document.getElementById('button2');
+        hdButton.addEventListener('click', toggleHeader);
+
+
+
+
         document.getElementById('button3').onmouseover = function(){
             document.getElementById('container').style.backgroundColor = 'skyblue';
             document.getElementById('header').style.color = 'white';

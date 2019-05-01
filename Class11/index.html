@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1><a href="Class11.html">Second page</a></h1>
+    <button id="button1"></button>
+    <button id="button2"></button>
+    <button id="button3"></button>
+
+    <div id="img-container">
+        <img src="https://blog.humanesociety.org/wp-content/uploads/2018/09/DSC_0004_171207-e1537549082632-1220x812.jpg" alt="animal" id="toggleImg">
+    </div>
+
+    <script>
+        
+        var button1 = document.getElementById('button1');
+        var button2 = document.getElementById('button2');
+        var button3 = document.getElementById('button3');
+
+        var sequence1 = function(){
+            var ImgSrc = document.getElementById('toggleImg').src
+
+            var src1 ='https://blog.humanesociety.org/wp-content/uploads/2018/09/DSC_0004_171207-e1537549082632-1220x812.jpg';
+            var src2 = 'https://aldf.org/wp-content/uploads/fly-images/4819/iStock-637686878-16x9-640x360-c.jpg';
+
+            if (ImgSrc === src1 ){
+                document.getElementById('toggleImg').src = src2;
+            }
+            else {
+                document.getElementById('toggleImg').src = src1;
+            }
+            }
+
+            button1.addEventListener('click', sequence1)
+       
+    </script>
+    
+</body>
+</html>

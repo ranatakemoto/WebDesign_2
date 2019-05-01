@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Pepsi_logo.svg/220px-Pepsi_logo.svg.png" alt="Brand logo">
+    </header>
+
+    <main>
+        <div class="buttons">
+            <button id="logoSwitch">Switch the logo</button>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script>
+        var switchLogo = function(){
+            var ImgCurrentSrc = document.getElementById('logo').src;
+
+            var src1 ='https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Pepsi_logo.svg/220px-Pepsi_logo.svg.png';
+            var src2 = 'https://cdn-images-1.medium.com/max/2400/0*sxh-Fgl85mWiovo7.png';
+
+            if (ImgCurrentSrc === src1){
+                document.getElementById('logo').src = src2;
+            }
+            else {
+                document.getElementById('logo').src = src1;
+            }
+            }
+
+        document.getElementById('logoSwitch').addEventListener ('click', switchLogo);
+    </script>
+    
+</body>
+</html>
