@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
     background-color: black;
@@ -113,4 +113,26 @@ body {
 
 header .img1 {
     width: 100%;
+}
+
+main h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.register-button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.register-button{
+    width: 115px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    margin-left: 118px;
 }
