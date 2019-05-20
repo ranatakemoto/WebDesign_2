@@ -1,0 +1,96 @@
+img {
+    width: 33%;
+}
+
+#btn1 {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    background-color: white;
+}
+
+#btn1:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#btn2{
+    padding: 10px;
+    margin-bottom: 20px;
+    display: none;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    background-color: white;
+}
+
+#btn2:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#container1 {
+    display: none;
+}
+
+#btn3 {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: pink;
+    border: 1px solid pink;
+    background-color: white;
+}
+
+#btn3:hover {
+    background-color: pink;
+    color: white;
+}
+
+#btn4{
+    padding: 10px;
+    margin-bottom: 20px;
+    display: none;
+    color: pink;
+    border: 1px solid pink;
+    background-color: white;
+}
+
+#btn4:hover {
+    background-color: pink;
+    color: white;
+}
+
+#container2 {
+    display: none;
+}
+
+#btn5 {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: grey;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#btn5:hover {
+    background-color: grey;
+    color: white;
+}
+
+#btn6{
+    padding: 10px;
+    margin-bottom: 20px;
+    display: none;
+    color: grey;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#btn6:hover {
+    background-color: grey;
+    color: white;
+}
+
+#container3 {
+    display: none;
+}

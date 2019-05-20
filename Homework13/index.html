@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Homework13</title>
+  <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+  <body>
+    <h1>Tanaka Tatsuya</h1>
+
+    <button id="btn1">Show images</button>
+    <button id="btn2">Hide images</button>
+
+    <div id="container1">
+      <img src="https://trendland.com/wp-content/uploads/2018/05/Building-a-Tiny-World-Miniature-Art-Project-by-Tatsuya-Tanaka-01.jpg" alt="tanaka tatsuya">
+      <img src="https://www.nippon.com/en/ncommon/contents/people/50206/50206.jpg" alt="tanaka tatsuya">
+      <img src="http://www.wikilinks.fr/wp-content/uploads/2018/02/scene-miniature-figurine-8.jpg" alt="tanaka tatsuya">
+    </div>
+
+   <br/><button id="btn3">Show images</button>
+    <button id="btn4">Hide images</button>
+
+    <div id="container2">
+      <img src="https://www.thisiscolossal.com/wp-content/uploads/2017/12/mini-10.jpg" alt="tanaka tatsuya">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHs-pBJVbCqZui8AwcrQymHcgIXMMABNey2PPIN2Qz1BizRAIC" alt="tanaka tatsuya">
+      <img src="https://metro.co.uk/wp-content/uploads/2017/01/170112thu.jpg?quality=90&strip=all" alt="tanaka tatsuya">
+    </div>
+
+    <br/><button id="btn5">Show images</button>
+    <button id="btn6">Hide images</button>
+
+    <div id="container3">
+      <img src="http://www.theinspiration.com/wp-content/uploads/161103thu-1074x1074.jpg" alt="tanaka tatsuya">
+      <img src="http://www.grtjournal.com/wp-content/uploads/2015/08/diorama-miniature-calendar-art-every-day-artist-tanaka-tatsuya-22.jpg" alt="tanaka tatsuya">
+      <img src="https://i2.wp.com/plainmagazine.com/wp-content/uploads/2017/01/content_plain-magazine-tanaka-tatsuya-18.jpg?ssl=1" alt="tanaka tatsuya">
+    </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.js" type="text/javascript"></script>
+  <script>
+    $('#btn1').click(function(){
+      $('#container1').fadeIn(1000);
+      $('#btn1').hide();
+      $('#btn2').show();
+    });
+
+    $('#btn2').click(function(){
+      $('#container1').fadeOut(1000);
+      $('#btn2').hide();
+      $('#btn1').show();
+    });
+
+    $('#btn3').click(function(){
+      $('#container2').slideDown(700);
+      $('#btn3').hide();
+      $('#btn4').show();
+    });
+
+    $('#btn4').click(function(){
+      $('#container2').slideUp(700);
+      $('#btn4').hide();
+      $('#btn3').show();
+    });
+
+    $('#btn5').click(function(){
+      $('#container3').show();
+      $('#btn5').hide();
+      $('#btn6').show();
+    });
+
+    $('#btn6').click(function(){
+      $('#container3').hide();
+      $('#btn6').hide();
+      $('#btn5').show();
+    });
+
+  </script>
+  </body>
+</html>

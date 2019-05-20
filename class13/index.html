@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>jquery</title>
+
+  <style>
+
+    .container {
+        width: 500px;
+        height: 400px;
+        background-color: white;
+    }
+
+    .pink-container {
+        background-color: lightpink;
+    }
+
+    .box {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 239, 13);
+        display: none;
+    }
+
+    </style>
+
+  </head>
+  <body>
+      <h1 class="header">Hello, World!</h1>
+
+      <button id="btn1">Append Things</button>
+      <button id="btn2">Prepend Things</button>
+      <button id="btn3">Remove Addons</button>
+      <button id="btn4">Empty Container</button>
+      <button id="colorToggle">Switch Color</button>
+
+      <div class="container">I am child 1
+
+        <div class="box"></div>
+      </div>
+
+      <form action="" method="POST"> 
+          <input type="text" name="name" id="myName">
+          <input type="email" name="email" id="myEmail">
+          <select name="effects" id="FX">
+              <option value="" default></option>
+              <option value="show">Show an element</option>
+              <option value="hide">Hide an element</option>
+              <option value="fadeIn">Fade it in</option>
+              <option value="fadeOut">Fade it out</option>
+              <option value="slideDown">Slide it down</option>
+              <option value="slideUp">Slide it up</option>
+
+          </select>
+          <input type="submit" value="submit">
+      </form>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('body').css('background-color', 'dodgerblue');
+            $('.header').css('color', 'white');
+
+            // console.log( $('body').css('background-color') );
+
+            $('#FX').change(function(){
+                var selection = $(this).val();
+                // console.log( $(this).val() );
+                if(selection === 'show'){
+                    $('.box').show();
+                } 
+                else if (selection === 'hide'){
+                    $('.box').hide();
+                }
+                else if (selection === 'fadeIn'){
+                    $('.box').fadeIn(500);
+                }
+                else if (selection === 'fadeOut'){
+                    $('.box').fadeOut(800);
+                }
+                else if (selection === 'slideDown'){
+                    $('.box').slideDown(2000);
+                }
+                else if (selection === 'slideUp'){
+                    $('.box').slideUp(1000);
+                }
+            }); // end change
+
+            $('#myName').blur(function(){
+                // console.log( $('#myName').val() );
+                if($('#myName').val() === 'Lana'){
+                    $('#myEmail').val('lanabu8217@gmail.com');
+                }
+            }); // end blur
+
+            $('#btn1').click(function(){
+                $('.container').append('<div class="container-child">I am child 2</div>');
+                $('<div class="container-child">I am child 4</div>').appendTo('.container');
+                $('.container').after('<div class="addon">I am AFTER!</div>');
+            }); // end click
+
+            $('#btn2').click(function(){
+                $('.container').prepend('<div class="container-child">I am child 3</div>');
+                $('.container').before('<div class="addon">I am BEFORE!</div>');
+                $('<div class="container-child">I am child 5</div>').prependTo('.container');
+            }); // end click
+
+            $('#btn3').click(function(){
+                $('.addon').remove();
+            }); // end click
+
+            $('#btn4').click(function(){
+                $('.container').empty();
+            }); // end click
+
+            $('#colorToggle').click(function(){
+                $('.container').toggleClass('pink-container');
+            }); // end click
+
+        }); // end ready
+    </script>
+  
+  </body>
+</html>
+  
