@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+
+      <nav>
+        <div id="nav">
+          <a href="#"><img src="https://static.wixstatic.com/media/f5511c_24ed81d597db4ae9a71e06ade17b68ce.png/v1/fill/w_120,h_138,al_c,q_80,usm_0.66_1.00_0.01/f5511c_24ed81d597db4ae9a71e06ade17b68ce.webp" alt="logo" id="logo"></a>
+
+          <div id="btn1">
+              <div id="line1" class="line"></div>
+              <div id="line2" class="line"></div>
+              <div id="line3" class="line"></div>
+          </div>
+        </div>
+
+          <ul id="submenu">
+              <li><a href="">Home</a></li>
+              <li id="about_submenu">About Us
+                  <ul id="submenu1">
+                      <li>Board of Directors</li>
+                      <li>Supporters</li>
+                  </ul>
+              </li>
+              <li id="get_submenu">Get Involved
+                  <ul id="submenu2">
+                      <li>Donate</li>
+                      <li>Participate</li>
+                      <li>Volunteer</li>
+                  </ul>
+              </li>
+              <li id="experience_submenu">The Experience
+                  <ul id="submenu3">
+                      <li>Social Media</li>
+                  </ul>
+              </li>
+              <li id="news_submenu">News & Events
+                  <ul id="submenu4">
+                    <li>2018 Events</li>
+                </ul>
+              </li>
+              <li>Contact</li>
+          </ul>
+      </nav>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script>
+
+          $('#btn1').click(function(){
+              if($('#submenu').css('display') === 'none'){
+                $('#submenu').slideDown(600);
+                $('#line2').hide();
+                $("#line1").css({'transform': 'translateY(10px) rotate(45deg)'});
+                $("#line1").css({'width': '40px'});
+                $("#line3").css({'width': '40px'});
+                $("#line3").css({'transform': 'rotate(-45deg)'});
+              }
+              else if ($('#submenu').css('display') === 'block'){
+                $('#submenu').slideUp(600);
+                $('#line2').show();
+                $("#line1").css({'transform': 'translateY(0px) rotate(0deg)'});
+                $("#line1").css({'width': '30px'});
+                $("#line3").css({'width': '30px'});
+                $("#line3").css({'transform': 'rotate(0deg)'});
+              }
+          });
+
+        $('#about_submenu').click(function(){
+              if($('#submenu1').css('display') === 'none'){
+                    $('#submenu1').slideDown(600);
+              }
+              else if ($('#submenu1').css('display') === 'block'){
+                    $('#submenu1').slideUp(600);
+              }
+        }); // end click
+          
+        $('#get_submenu').click(function(){
+            if($('#submenu2').css('display') === 'none'){
+                $('#submenu2').slideDown(600);
+            }
+            else if ($('#submenu2').css('display') === 'block'){
+                $('#submenu2').slideUp(600);
+            }
+        }); // end click
+
+        $('#experience_submenu').click(function(){
+            if($('#submenu3').css('display') === 'none'){
+                $('#submenu3').slideDown(600);
+            }
+            else if ($('#submenu3').css('display') === 'block'){
+                $('#submenu3').slideUp(600);
+            }
+        }); // end click
+
+        $('#news_submenu').click(function(){
+            if($('#submenu4').css('display') === 'none'){
+                $('#submenu4').slideDown(600);
+            }
+            else if ($('#submenu4').css('display') === 'block'){
+                $('#submenu4').slideUp(600);
+            }
+        }); // end click
+
+
+      </script>
+  
+  </body>
+</html>
