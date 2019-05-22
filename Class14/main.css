@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(255, 179, 223);
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+li {
+    margin: 5px 10px;
+}
+
+li#home {
+    order: 0;
+}
+
+@media(min-width:768px){
+    ul {
+        flex-direction: row;
+    }
+
+    li#home {
+        order: 1;
+    }
+
+    li:nth-child(2){
+        order: 2;
+    }
+    li:nth-last-child(1){
+        order: 3;
+    }
+}
+

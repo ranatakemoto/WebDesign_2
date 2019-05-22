@@ -9,7 +9,8 @@
 
       <nav>
         <div id="nav">
-          <a href="#"><img src="https://static.wixstatic.com/media/f5511c_24ed81d597db4ae9a71e06ade17b68ce.png/v1/fill/w_120,h_138,al_c,q_80,usm_0.66_1.00_0.01/f5511c_24ed81d597db4ae9a71e06ade17b68ce.webp" alt="logo" id="logo"></a>
+            <img src="https://static.wixstatic.com/media/f5511c_24ed81d597db4ae9a71e06ade17b68ce.png/v1/fill/w_120,h_138,al_c,q_80,usm_0.66_1.00_0.01/f5511c_24ed81d597db4ae9a71e06ade17b68ce.webp" alt="logo" id="logo"><h1 id="name">THE SURF<br/>BUS FOUNDATION</h1>
+
 
           <div id="btn1">
               <div id="line1" class="line"></div>
@@ -17,6 +18,8 @@
               <div id="line3" class="line"></div>
           </div>
         </div>
+
+        <div class="clearfix"></div>
 
           <ul id="submenu">
               <li><a href="">Home</a></li>
@@ -46,12 +49,21 @@
               <li>Contact</li>
           </ul>
       </nav>
-      <main>
-          <!-- <img src="https://cdn.vox-cdn.com/thumbor/WW_hsrIa2f8gqCOhjiEN_cJiCFk=/0x0:4752x3168/1200x800/filters:focal(1996x1204:2756x1964)/cdn.vox-cdn.com/uploads/chorus_image/image/55282195/14759082992_4ec474d813_o.0.jpg" alt="" width="100%"> -->
+
+      <div class="clearfix"></div>
+
+      <main class="superdiv">
+          <p id="mission">OUR MISSION</p>
+          <p></p>
       </main>
+
+
+
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <script>
+
+          $(document).ready(function(){
 
           $('#btn1').click(function(){
               if($('#submenu').css('display') === 'none'){
@@ -108,6 +120,7 @@
                 $('#submenu4').slideUp(600);
             }
         }); // end click
+    }); // end ready
 
 
         // $('#about_submenu').click(function(){

@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
 
 body {
     margin: 0px;
+    background-color: rgb(252, 252, 247);
 }
 
 /******************** NAVIGATION BARRRRRRR ********************/
 ul {
     padding: 0px;
-    background-color: white
+    background-color:rgb(252, 252, 247);
 }
 
 li {
@@ -27,11 +31,16 @@ li a {
 #nav {
     width: 100%;
     height: 50px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    background-color: white;
-    position: fixed;
+    padding-top: 12px;
+    padding-bottom: 17px;
+    background-color: rgb(252, 252, 247);
+    float: left;
 }
+
+.clearfix {
+    clear: both;
+}
+
 
 #logo {
     float: left;
@@ -39,9 +48,18 @@ li a {
     padding-left: 20px;
 }
 
+#name {
+    float: left;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(247, 201, 0);
+    font-family: 'Abel', sans-serif;
+    margin-left: 10px;
+}
+
 #btn1{
     float: right;
-    padding-top: 15px;
+    padding-top: 18px;
     padding-right: 20px;
 }
 
@@ -49,7 +67,7 @@ li a {
     width: 30px;
     height: 3px;
     margin-bottom: 8px;
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     border-radius: 8px;
 }
 
@@ -57,7 +75,7 @@ li a {
     width: 30px;
     height: 3px;
     margin-bottom: 8px;
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     border-radius: 8px;
 }
 
@@ -65,7 +83,7 @@ li a {
     width: 30px;
     height: 3px;
     margin-bottom: 8px;
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     border-radius: 8px;
 }
 
@@ -77,9 +95,10 @@ li a {
 
 #submenu {
     display: none;
-    text-align: center;
-    padding-top: 87px;
+    padding-top: 0px;
     margin-top: 0px;
+    width: 100%;
+    text-align: center;
 }
 
 #submenu1 {
@@ -144,3 +163,21 @@ li a {
 }
 /******************** NAVIGATION BARRRRRRR ********************/
 
+h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: dodgerblue;
+}
+
+#headimg {
+    width: 100%;
+}
+
+#mission {
+    font-family: 'Abel', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 25px;
+    margin-left: 20px;
+}
