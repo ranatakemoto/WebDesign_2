@@ -20,25 +20,25 @@
 
           <ul id="submenu">
               <li><a href="">Home</a></li>
-              <li id="about_submenu">About Us
+              <li id="about_submenu">About Us <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow1">
                   <ul id="submenu1">
                       <li>Board of Directors</li>
                       <li>Supporters</li>
                   </ul>
               </li>
-              <li id="get_submenu">Get Involved
+              <li id="get_submenu">Get Involved <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow2">
                   <ul id="submenu2">
                       <li>Donate</li>
                       <li>Participate</li>
                       <li>Volunteer</li>
                   </ul>
               </li>
-              <li id="experience_submenu">The Experience
+              <li id="experience_submenu">The Experience <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow">
                   <ul id="submenu3">
                       <li>Social Media</li>
                   </ul>
               </li>
-              <li id="news_submenu">News & Events
+              <li id="news_submenu">News & Events <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow">
                   <ul id="submenu4">
                     <li>2018 Events</li>
                 </ul>
@@ -46,6 +46,9 @@
               <li>Contact</li>
           </ul>
       </nav>
+      <main>
+          <!-- <img src="https://cdn.vox-cdn.com/thumbor/WW_hsrIa2f8gqCOhjiEN_cJiCFk=/0x0:4752x3168/1200x800/filters:focal(1996x1204:2756x1964)/cdn.vox-cdn.com/uploads/chorus_image/image/55282195/14759082992_4ec474d813_o.0.jpg" alt="" width="100%"> -->
+      </main>
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <script>
@@ -58,6 +61,7 @@
                 $("#line1").css({'width': '40px'});
                 $("#line3").css({'width': '40px'});
                 $("#line3").css({'transform': 'rotate(-45deg)'});
+                $('body').filter('blur');
               }
               else if ($('#submenu').css('display') === 'block'){
                 $('#submenu').slideUp(600);
@@ -105,6 +109,15 @@
             }
         }); // end click
 
+
+        // $('#about_submenu').click(function(){
+            // if($('#submenu1').css('display') === 'block'){
+                // $('.arrow1').attr('src','https://cdn.iconscout.com/icon/free/png-256/up-arrow-237-861731.png');
+            // }
+            // else if ($('#submenu1').css('display') === 'none'){
+                // $('.arrow1').attr('src', 'https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png')
+            // }
+        // });
 
       </script>
   

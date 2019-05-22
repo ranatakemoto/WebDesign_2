@@ -4,9 +4,10 @@ body {
     margin: 0px;
 }
 
+/******************** NAVIGATION BARRRRRRR ********************/
 ul {
     padding: 0px;
-    background-color: rgba(15, 233, 241, 0.39);
+    background-color: white
 }
 
 li {
@@ -14,11 +15,13 @@ li {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Muli', sans-serif;
+    color: rgb(61, 61, 61);
 }
 
 li a {
     text-decoration: none;
     font-family: 'Muli', sans-serif;
+    color: rgb(61, 61, 61);
 }
 
 #nav {
@@ -27,6 +30,7 @@ li a {
     padding-top: 15px;
     padding-bottom: 10px;
     background-color: white;
+    position: fixed;
 }
 
 #logo {
@@ -74,6 +78,8 @@ li a {
 #submenu {
     display: none;
     text-align: center;
+    padding-top: 87px;
+    margin-top: 0px;
 }
 
 #submenu1 {
@@ -92,5 +98,49 @@ li a {
     display: none;
 }
 
+.arrow {
+    width: 18px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+}
 
+.arrow1 {
+    width: 18px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.arrow2 {
+    width: 18px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+#submenu1 li {
+    color: dodgerblue;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#submenu2 li {
+    color: dodgerblue;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#submenu3 li {
+    color: dodgerblue;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#submenu4 li {
+    color: dodgerblue;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+/******************** NAVIGATION BARRRRRRR ********************/
 
