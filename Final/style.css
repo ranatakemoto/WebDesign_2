@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300&display=swap');
 
 body {
     margin: 0px;
@@ -12,6 +12,9 @@ body {
 ul {
     padding: 0px;
     background-color:rgb(252, 252, 247);
+    /* list-style: none; */
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 li {
@@ -33,7 +36,7 @@ li a {
     height: 50px;
     padding-top: 12px;
     padding-bottom: 17px;
-    background-color: rgb(252, 252, 247);
+    background-color: dodgerblue;
     float: left;
 }
 
@@ -51,7 +54,7 @@ li a {
 #name {
     float: left;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 17px;
     color: rgb(247, 201, 0);
     font-family: 'Abel', sans-serif;
     margin-left: 10px;
@@ -99,6 +102,9 @@ li a {
     margin-top: 0px;
     width: 100%;
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
 #submenu1 {
@@ -171,13 +177,247 @@ h1 {
     color: dodgerblue;
 }
 
-#headimg {
-    width: 100%;
+.superdiv {
+    margin: 0px 0px;
 }
 
-#mission {
+.donate {
+    padding: 5px 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: dodgerblue;
+    padding-bottom: 30px;
+}
+
+.header {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+span {
+    color: rgb(247, 201, 0);
+}
+
+.donate_button {
+    height:36px; 
+    width:120px; 
+    margin: -36px -60px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    border-radius: 3px;
+}
+
+.donate_button a {
+    color: rgb(252, 252, 247);
+    text-decoration: none;
+}
+
+.donate_button:hover {
+    background-color: grey;
+}
+
+#img1 {
+    width: 100%;
+    position: relative;
+}
+
+.participatediv {
+    width: 300px;
+    height: 55px;
+    margin: -55px -150px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    background-color: white;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.participate_button {
+    height:45px; 
+    width:280px;     
+    background-color: rgb(247, 201, 0);
+    border: none;
+    border-radius: 3px;
+    color: rgb(61, 61, 61);
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.participate_button a {
+    text-decoration: none;
+}
+
+.title {
     font-family: 'Abel', sans-serif;
     color: rgb(61, 61, 61);
     font-size: 25px;
-    margin-left: 20px;
+    margin-bottom: 15px;
 }
+
+.mission {
+    border-radius: 3px;
+    padding: 0 30px;
+    margin-top: 0px;
+    padding-top: 48px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.p_mission {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+}
+
+.box_container {
+    text-align: center;
+    background-color: rgb(252, 252, 247);
+}
+
+
+/******************** BOX 1 BOX 1 BOX 1 ********************/
+#box1 {
+    background-color: white;
+    margin: 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    position: relative;
+    min-height: 180px;
+    border-radius: 3px;
+}
+
+#boximg1 {
+    position: absolute;
+    height: 180px;
+    left: -47px;
+    border-radius: 3px 0px 0px 3px;
+    clip: rect(0px,173px,180px,47px);
+}
+
+#boxp1 {
+    position: absolute;
+    min-width: 50%;
+    top: 50;
+    left: 50;
+    margin: 15px 150px;
+}
+
+#box1 h2 {
+    font-family: 'Abel', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#box1 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#boxbtn1 {
+    background-color: #f7c900;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+/******************** BOX 2 BOX 2 BOX 2 ********************/
+#box2 {
+    background-color: white;
+    margin: 10px 15px;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 180px;
+    border-radius: 3px;
+}
+
+#boximg2 {
+    position: absolute;
+    height: 180px;
+    left: -25px;
+    border-radius: 3px 0px 0px 3px;
+    clip: rect(0px,151px,180px,25px);
+}
+
+#boxp2 {
+    position: absolute;
+    min-width: 50%;
+    top: 50;
+    left: 50;
+    margin: 15px 150px;
+}
+
+#box2 h2 {
+    font-family: 'Abel', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#box2 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#boxbtn2 {
+    background-color: dodgerblue;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+/******************** BOX 3 BOX 3 BOX 3 ********************/
+#box3 {
+    background-color: white;
+    margin: 10px 15px;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 180px;
+    border-radius: 3px;
+}
+
+#boximg3 {
+    position: absolute;
+    height: 180px;
+    left: -40px;
+    border-radius: 3px 0px 0px 3px;
+    clip: rect(0px,166px,180px,40px);
+}
+
+#boxp3 {
+    position: absolute;
+    min-width: 50%;
+    top: 50;
+    left: 50;
+    margin: 15px 150px;
+}
+
+#box3 h2 {
+    font-family: 'Abel', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#box3 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#boxbtn3 {
+    background-color: rgb(61, 61, 61);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+

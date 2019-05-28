@@ -53,9 +53,64 @@
       <div class="clearfix"></div>
 
       <main class="superdiv">
-          <p id="mission">OUR MISSION</p>
-          <p></p>
+          <div class="donate">
+                <p class="header">YOU CAN MAKE A CHANGE IN THE <span>LIFE</span> OF ONE CHILD TODAY</p>
+                <button class="donate_button"><a href="">DONATE ONLINE</a></button>
+          </div>
+          <img src="img/310372_236943309694825_1738489292_n.jpg" alt="" id="img1"> <div class="participatediv">
+        
+
+        <div>
+                <button class="participate_button"> + PARTICIPATE</button></div>   
+        </div>
+
+
+        <div class="mission">
+            <p class="title">OUR MISSION</p>
+            <p class="p_mission">The Surf Bus Foundation's mission is to empower people to have a healing connection to the sea. <br/>We do this by engaging in ocean sports like surfing, swimming and beach games while exploring the wonder and beauty of the sea. Our teaching and mentoring provides understanding that encourages a lifelong commitment to share and protect our oceans for all to enjoy.</p>
+        </div>
+
+        <div class="box_container">
+
+            <div id="box1">
+                <img src="https://media.wnyc.org/i/800/0/c/85/1/surfing.jpg" alt="logo" id="boximg1"> 
+                <div id="boxp1">
+                    <h2>About Us</h2>
+                    <p>Learn about our history,
+                    our board of directors,
+                    and our lovely supporters!</p>
+                    <button id="boxbtn1">ABOUT US</button>
+                </div>
+            </div>
+
+            <div id="box2">
+                <img src="https://image.freepik.com/free-vector/background-with-people-doing-a-donation_23-2147558145.jpg" alt="donation" id="boximg2">
+                <div id="boxp2">
+                    <h2>Donate Online</h2>
+                    <p>GIVE NOW!<br/>
+                    The Surf Bus Foundation needs you!</p>
+                    <button id="boxbtn2">DONATE NOW</button>
+                </div>
+            </div>
+
+            <div id="box3">
+                <img src="https://2.bp.blogspot.com/-eIayJPxT9mo/W7czXg5mu6I/AAAAAAAABAs/XdCauIbTbPgdUpVJ899KpWrSmYO6nQevQCLcBGAs/w1200-h630-p-k-no-nu/blog.jpg" alt="blog" id="boximg3">
+                <div id="boxp3">
+                    <h2>Our Blog</h2>
+                    <p>Check our blog for events, schedule, and updates!<br/>
+                        See our daily activities.
+                    </p>
+                    <button id="boxbtn3">OUR BLOG</button>
+                </div>
+            </div>
+
+        </div>
+
       </main>
+
+      <footer>
+          
+      </footer>
 
 
 
@@ -68,6 +123,9 @@
           $('#btn1').click(function(){
               if($('#submenu').css('display') === 'none'){
                 $('#submenu').slideDown(600);
+                $('.arrow1').slideDown(300);
+                $('.arrow2').slideDown(300);
+                $('.arrow').slideDown(600);
                 $('#line2').hide();
                 $("#line1").css({'transform': 'translateY(10px) rotate(45deg)'});
                 $("#line1").css({'width': '40px'});
@@ -77,6 +135,9 @@
               }
               else if ($('#submenu').css('display') === 'block'){
                 $('#submenu').slideUp(600);
+                $('.arrow1').slideUp(400);
+                $('.arrow2').slideUp(400);
+                $('.arrow').slideUp(300);
                 $('#line2').show();
                 $("#line1").css({'transform': 'translateY(0px) rotate(0deg)'});
                 $("#line1").css({'width': '30px'});
@@ -121,6 +182,7 @@
             }
         }); // end click
     }); // end ready
+
 
 
         // $('#about_submenu').click(function(){
