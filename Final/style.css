@@ -21,13 +21,13 @@ li {
     list-style-type: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: rgb(61, 61, 61);
 }
 
 li a {
     text-decoration: none;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: rgb(61, 61, 61);
 }
 
@@ -38,7 +38,7 @@ li a {
     height: 50px;
     padding-top: 12px;
     padding-bottom: 17px;
-    background-color: #3c9dfc;
+    background-color: #469ef7;
     float: left;
 }
 
@@ -99,7 +99,6 @@ li a {
 }
 
 #submenu {
-    display: none;
     padding-top: 0px;
     margin-top: 0px;
     width: 100%;
@@ -109,12 +108,24 @@ li a {
     margin-bottom: 0px;
 }
 
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
 #submenu1 {
     display: none;
 }
 
 #submenu2 {
     display: none;
+}
+
+#submenu2 li a{
+    color: #469ef7;
 }
 
 #submenu3 {
@@ -147,25 +158,25 @@ li a {
 }
 
 #submenu1 li {
-    color: dodgerblue;
+    color: #469ef7;
     padding-top: 15px;
     padding-left: 20px;
 }
 
 #submenu2 li {
-    color: dodgerblue;
+    color: #469ef7;
     padding-top: 15px;
     padding-left: 20px;
 }
 
 #submenu3 li {
-    color: dodgerblue;
+    color: #469ef7;
     padding-top: 15px;
     padding-left: 20px;
 }
 
 #submenu4 li {
-    color: dodgerblue;
+    color: #469ef7;
     padding-top: 15px;
     padding-left: 20px;
 }
@@ -180,7 +191,7 @@ h1 {
     font-size: 20px;
     margin-left: 20px;
     margin-top: 20px;
-    color: #3c9dfc;
+    color: #469ef7;
 }
 
 .superdiv {
@@ -191,7 +202,7 @@ h1 {
     padding: 5px 60px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #3c9dfc;
+    background-color: #469ef7;
     padding-bottom: 25px;
 
 }
@@ -375,12 +386,17 @@ span {
 }
 
 #boxbtn2 {
-    background-color: #3c9dfc;
+    background-color: #469ef7;
     padding: 10px 40px;
     border: none;
     border-radius: 3px;
+}
+
+#boxbtn2 a {
+    text-decoration: none;
     color: white;
 }
+
 
 /******************** BOX 3 BOX 3 BOX 3 ********************/
 #box3 {
@@ -427,6 +443,29 @@ span {
     border-radius: 3px;
     color: white;
 }
+
+#boxbtn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/******************** FOOTER FOOTER FOOTER ********************/
+footer {
+    background-color: #469ef7;
+    margin-top: 40px;
+}
+
+.smlogo {
+    width: 50px;
+    padding: 30px 10px;
+}
+
+.smlogo_container {
+    text-align: center;
+    width: 250px;
+    margin: 0px auto;
+}
+
 
 @media(min-width: 428px){
     #boximg1 {
@@ -853,15 +892,18 @@ span {
     }
 
     #submenu {
-        display: block;
         width: 700px;
         float: right;
         margin-top: -54px;
         padding-bottom: 10px;
     }
 
+    #submenu.hidden {
+        display: block;
+    }
+
     ul {
-        background-color: rgb(60, 157, 252);
+        background-color: #469ef7;
     }
 
     ul li {
@@ -910,9 +952,29 @@ span {
         clear: both;
     }
 
+    footer {
+        margin-top: 50px;
+    }
+
+    .smlogo {
+        width: 60px;
+        padding: 40px 30px;
+    }
+    
+    .smlogo_container {
+        text-align: center;
+        width: 400px;
+        margin: 0px auto;
+    }
+
 }
 
 @media(min-width: 1200px) {
+    body {
+        width: 1200px;
+        margin: 0px auto;
+    }
+
     #superbox {
         width: 1200px;
     }

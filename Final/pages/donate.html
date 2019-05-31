@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>title</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="../style.css" type="text/css">
+  <link rel="stylesheet" href="pages.css" type="text/css">
   </head>
   <body>
 
       <nav>
         <div id="nav">
-            <img src="img/logo.png" alt="logo" id="logo"><h1 id="name">THE SURF<br/>BUS FOUNDATION</h1>
+            <img src="../img/logo.png" alt="logo" id="logo"><h1 id="name">THE SURF<br/>BUS FOUNDATION</h1>
 
 
           <div id="btn1">
@@ -23,7 +24,7 @@
 
 
           <ul id="submenu">
-              <li><a href="" class="active">Home</a></li>
+              <li><a href="../index.html">Home</a></li>
               <li id="about_submenu">About Us <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow1">
                   <ul id="submenu1">
                       <li>Board of Directors</li>
@@ -32,7 +33,7 @@
               </li>
               <li id="get_submenu">Get Involved <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow2">
                   <ul id="submenu2">
-                      <li><a href="pages/donate.html">Donate</a></li>
+                      <li class="active">Donate</li>
                       <li>Participate</li>
                       <li>Volunteer</li>
                   </ul>
@@ -53,77 +54,60 @@
 
       <div class="navclearfix"></div>
 
-      <div class="clearfix"></div>
+      <div class="donate_container">
+            <h1 id="donate_title">Whatever your reason for donating and however you choose to make your donation, we are greatful for your support.</h1>
+            <p id="donate_p">We love donations of goods and volunteer services!<br/>
+                Monetary donations help us to pay for things like insurance, storage, busses & transportation costs, equipment (surfboards, boogie boards, wetsuits, canopy tents), meals/snacks for participants, supplies (sunscreen, teaching materials, office supplies), etc...
+            </p>
+      </div>
 
-      <main class="superdiv">
-          <div class="donate">
-                <p class="header">YOU CAN MAKE A CHANGE IN THE <br/><span>LIFE</span> OF ONE CHILD TODAY</p>
-                <button class="donate_button"><a href="pages/donate.html">DONATE ONLINE</a></button>
-          </div>
-
-        <div id="superbox">
-            <img src="img/310372_236943309694825_1738489292_n.jpg" alt="" id="img1"> <div class="participatediv">
-        
-            <div>
-                    <button class="participate_button"> + PARTICIPATE</button></div>   
-            </div>
-
-
-            <div class="mission">
-                <p class="title">OUR MISSION</p>
-                <p class="p_mission">The Surf Bus Foundation's mission is to empower people to have a healing connection to the sea. <br/>We do this by engaging in ocean sports like surfing, swimming and beach games while exploring the wonder and beauty of the sea. Our teaching and mentoring provides understanding that encourages a lifelong commitment to share and protect our oceans for all to enjoy.</p>
-            </div>
-        </div>
-    
-
-        <div class="clearfix"></div>
-
-        <div class="box_container">
-
-            <div id="box1">
-                <img src="https://media.wnyc.org/i/800/0/c/85/1/surfing.jpg" alt="logo" id="boximg1"> 
-                <div id="boxp1">
-                    <h2>About Us</h2>
-                    <p>Learn about our history,
-                    our board of directors,
-                    and our lovely supporters!</p>
-                    <button id="boxbtn1">ABOUT US</button>
-                </div>
-            </div>
-
-            <div id="box2">
-                <img src="https://image.freepik.com/free-vector/background-with-people-doing-a-donation_23-2147558145.jpg" alt="donation" id="boximg2">
-                <div id="boxp2">
-                    <h2>Donate Online</h2>
-                    <p>GIVE NOW!<br/>
-                    The Surf Bus Foundation needs you!</p>
-                    <button id="boxbtn2"><a href="pages/donate.html">DONATE NOW</a></button>
-                </div>
-            </div>
-
-            <div id="box3">
-                <img src="https://2.bp.blogspot.com/-eIayJPxT9mo/W7czXg5mu6I/AAAAAAAABAs/XdCauIbTbPgdUpVJ899KpWrSmYO6nQevQCLcBGAs/w1200-h630-p-k-no-nu/blog.jpg" alt="blog" id="boximg3">
-                <div id="boxp3">
-                    <h2>Our Blog</h2>
-                    <p>Check our blog for events, schedule, and updates!<br/>
-                        See our daily activities.
-                    </p>
-                    <button id="boxbtn3"><a href="pages/blog.html">OUR BLOG</a></button>
-                </div>
-            </div>
+      <div class="donate_form">
+            <h1 id="donationform">Gift Information</h1>
+            <form action="GET">
+                <button class="option">$5</button>
+                <button class="option">$10</button>
+                <button class="option active_button">$15</button>
+                <button class="option">$20</button>
+                <input type="text" id="other" placeholder="OTHER">
+            </form>
 
             <div class="clearfix"></div>
 
-        </div>
+            <h1 id="donationform">Donor Information</h1>
+            <form action="POST" id="form">
+                <label for="username">First name</label><br/>
+                <input type="text" id="username" placeholder="First name"><br/>
+                <label for="username" >Last name</label><br/>
+                <input type="text" id="username" placeholder="Last name"><br/>
+                <label for="email">E-mail</label><br/>
+                <input type="text" id="email" placeholder="myemail@email.com"><br/>
 
-      </main>
+                <label for="cardnumber" id="label_creditcard">Credit card number</label><br/>
+                <input type="text" id="cardnumber" placeholder="1234 5678 9012 3456"><br/>
+                <label for="security">Security number <img src="https://www.materialui.co/materialIcons/action/info_grey_192x192.png" alt="information" id="information"></label><br/>
+                <div id="informationdiv">
+                    <img src="https://i0.wp.com/blog.appknox.com/wp-content/uploads/2018/03/Screen-Shot-2018-02-19-at-3.13.24-PM.png?resize=783%2C544" alt="security number">
+                </div>
+                <input type="text" id="security" placeholder="123"><br/>
+                <label for="zipcode">Zip code</label><br/>
+                <input type="text" id="zipcode" placeholder="12345"><br/>
 
+                <div id="success">
+                    <img src="https://png.pngtree.com/svg/20170401/52fae5909c.svg" alt="success" class="success"> <p class="message">Thank you for your donation!!</p>
+                </div>
+            </form>
+
+            <button id="submit">Submit</button>
+
+
+      </div>
       <footer>
             <div class="smlogo_container">
-                <img src="img/youtube.png" alt="Youtube" class="smlogo">
-                <img src="img/facebook.png" alt="Facebook" class="smlogo">
-                <img src="img/instagram.png" alt="Instagram" class="smlogo">
+                <img src="../img/youtube.png" alt="Youtube" class="smlogo">
+                <img src="../img/facebook.png" alt="Facebook" class="smlogo">
+                <img src="../img/instagram.png" alt="Instagram" class="smlogo">
             </div>
+            
           
       </footer>
 
@@ -132,8 +116,7 @@
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <script>
-
-        $(document).ready(function(){
+          $(document).ready(function(){
             $('#submenu').addClass('hidden');
             $('#btn1').click(function(){
                 $('#submenu').toggleClass('shown');
@@ -199,20 +182,19 @@
                 $('#submenu4').slideUp(600);
             }
         }); // end click
+
+        $('#informationdiv').addClass('hidden');
+        $('#information').click(function(){
+            $('#informationdiv').toggleClass('shown');
+        });
+
+        $('#submit').click(function(){
+            $('#success').show();
+        });
     }); // end ready
 
 
-
-        // $('#about_submenu').click(function(){
-            // if($('#submenu1').css('display') === 'block'){
-                // $('.arrow1').attr('src','https://cdn.iconscout.com/icon/free/png-256/up-arrow-237-861731.png');
-            // }
-            // else if ($('#submenu1').css('display') === 'none'){
-                // $('.arrow1').attr('src', 'https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png')
-            // }
-        // });
-
       </script>
-  
-  </body>
-</html>
+
+    </body>
+    </html>
