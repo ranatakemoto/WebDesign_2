@@ -23,9 +23,9 @@
         <div class="clearfix"></div>
 
 
-          <ul id="submenu">
+          <ul id="submenu" class="hidden">
               <li><a href="../index.html">Home</a></li>
-              <li id="about_submenu">About Us <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow1">
+              <li id="about_submenu"><a href="about.html">About Us</a><img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow1">
                   <ul id="submenu1">
                       <li>Board of Directors</li>
                       <li>Supporters</li>
@@ -33,7 +33,7 @@
               </li>
               <li id="get_submenu">Get Involved <img src="https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png" alt="arrow" class="arrow2">
                   <ul id="submenu2">
-                      <li>Donate</li>
+                      <li><a href="donate.html">Donate</a></li>
                       <li>Participate</li>
                       <li>Volunteer</li>
                   </ul>
@@ -91,90 +91,76 @@
       </footer>
 
 
-
-
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <script>
-          $(document).ready(function(){
-            $('#submenu').addClass('hidden');
+        $(document).ready(function(){
             $('#btn1').click(function(){
                 $('#submenu').toggleClass('shown');
 
-            //     if($('#submenu').hasClass('hidden')){
-            //     $('#submenu').slideDown(600);
-            //     $('.arrow1').slideDown(300);
-            //     $('.arrow2').slideDown(300);
-            //     $('.arrow').slideDown(600);
-            //     $('#line2').hide();
-            //     $("#line1").css({'transform': 'translateY(10px) rotate(45deg)'});
-            //     $("#line1").css({'width': '40px'});
-            //     $("#line3").css({'width': '40px'});
-            //     $("#line3").css({'transform': 'rotate(-45deg)'});
-            // }
-            // else if ($('#submenu').hasClass('shown')){
-            //     $('#submenu').slideUp(600);
-            //     $('.arrow1').slideUp(400);
-            //     $('.arrow2').slideUp(400);
-            //     $('.arrow').slideUp(300);
-            //     $('#line2').show();
-            //     $("#line1").css({'transform': 'translateY(0px) rotate(0deg)'});
-            //     $("#line1").css({'width': '30px'});
-            //     $("#line3").css({'width': '30px'});
-            //     $("#line3").css({'transform': 'rotate(0deg)'});
-            // }
-            });
+                if($('#submenu').hasClass('shown')){
+                    $('#submenu').slideDown(600);
+                    $('.arrow1').slideDown(300);
+                    $('.arrow2').slideDown(300);
+                    $('.arrow').slideDown(600);
+                    $('#line2').hide();
+                    $("#line1").css({'transform': 'translateY(10px) rotate(45deg)'});
+                    $("#line1").css({'width': '40px'});
+                    $("#line3").css({'width': '40px'});
+                    $("#line3").css({'transform': 'rotate(-45deg)'});
+                }
+                else if ($('#submenu').hasClass('hidden')){
+                    $('#submenu').slideUp(600);
+                    $('.arrow1').slideUp(400);
+                    $('.arrow2').slideUp(400);
+                    $('.arrow').slideUp(300);
+                    $('#line2').show();
+                    $("#line1").css({'transform': 'translateY(0px) rotate(0deg)'});
+                    $("#line1").css({'width': '30px'});
+                    $("#line3").css({'width': '30px'});
+                    $("#line3").css({'transform': 'rotate(0deg)'});
+                }
+            }); // end click
 
 
 
-        $('#about_submenu').click(function(){
-              if($('#submenu1').css('display') === 'none'){
-                    $('#submenu1').slideDown(600);
-              }
-              else if ($('#submenu1').css('display') === 'block'){
-                    $('#submenu1').slideUp(600);
-              }
-        }); // end click
-          
-        $('#get_submenu').click(function(){
-            if($('#submenu2').css('display') === 'none'){
-                $('#submenu2').slideDown(600);
-            }
-            else if ($('#submenu2').css('display') === 'block'){
-                $('#submenu2').slideUp(600);
-            }
-        }); // end click
+            $('#about_submenu').click(function(){
+                if($('#submenu1').css('display') === 'none'){
+                        $('#submenu1').slideDown(600);
+                }
+                else if ($('#submenu1').css('display') === 'block'){
+                        $('#submenu1').slideUp(600);
+                }
+            }); // end click
+      
+            $('#get_submenu').click(function(){
+                if($('#submenu2').css('display') === 'none'){
+                    $('#submenu2').slideDown(600);
+                }
+                else if ($('#submenu2').css('display') === 'block'){
+                    $('#submenu2').slideUp(600);
+                }
+            }); // end click
 
-        $('#experience_submenu').click(function(){
-            if($('#submenu3').css('display') === 'none'){
-                $('#submenu3').slideDown(600);
-            }
-            else if ($('#submenu3').css('display') === 'block'){
-                $('#submenu3').slideUp(600);
-            }
-        }); // end click
+            $('#experience_submenu').click(function(){
+                if($('#submenu3').css('display') === 'none'){
+                    $('#submenu3').slideDown(600);
+                }
+                else if ($('#submenu3').css('display') === 'block'){
+                    $('#submenu3').slideUp(600);
+                }
+            }); // end click
 
-        $('#news_submenu').click(function(){
-            if($('#submenu4').css('display') === 'none'){
-                $('#submenu4').slideDown(600);
-            }
-            else if ($('#submenu4').css('display') === 'block'){
-                $('#submenu4').slideUp(600);
-            }
-        }); // end click
+            $('#news_submenu').click(function(){
+                if($('#submenu4').css('display') === 'none'){
+                    $('#submenu4').slideDown(600);
+                }
+                else if ($('#submenu4').css('display') === 'block'){
+                    $('#submenu4').slideUp(600);
+                }
+            }); // end click
     }); // end ready
 
-
-
-        // $('#about_submenu').click(function(){
-            // if($('#submenu1').css('display') === 'block'){
-                // $('.arrow1').attr('src','https://cdn.iconscout.com/icon/free/png-256/up-arrow-237-861731.png');
-            // }
-            // else if ($('#submenu1').css('display') === 'none'){
-                // $('.arrow1').attr('src', 'https://www.shareicon.net/download/2015/08/23/89435_down_512x512.png')
-            // }
-        // });
-
-      </script>
-
-    </body>
-    </html>
+</script>
+  
+</body>
+</html>

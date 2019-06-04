@@ -273,6 +273,10 @@ span {
     text-decoration: none;
 }
 
+.participate_button:hover {
+    background-color: rgb(24, 221, 211);
+}
+
 .title {
     font-family: 'Abel', sans-serif;
     color: rgb(61, 61, 61);
@@ -347,6 +351,15 @@ span {
     color: white;
 }
 
+#boxbtn1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#boxbtn1:hover {
+    background-color: #ffe46d;
+}
+
 /******************** BOX 2 BOX 2 BOX 2 ********************/
 #box2 {
     background-color: white;
@@ -396,7 +409,9 @@ span {
     text-decoration: none;
     color: white;
 }
-
+#boxbtn2:hover {
+    background-color: #9dceff;
+}
 
 /******************** BOX 3 BOX 3 BOX 3 ********************/
 #box3 {
@@ -447,6 +462,10 @@ span {
 #boxbtn3 a {
     text-decoration: none;
     color: white;
+}
+
+#boxbtn3:hover {
+    background-color: rgb(133, 133, 133);
 }
 
 /******************** FOOTER FOOTER FOOTER ********************/
