@@ -35,12 +35,31 @@ ul {
     margin: 0;
     padding-top: 5px;
     padding-bottom: 0px;
-    position: sticky;
-    padding-left: 10px;
-    padding-right: 10px;
+    position: fixed;
+    width: 100%;
 }
 .active {
     color: rgb(209, 129, 8);
     font-size: 15px;
+}
+
+.lionking-image {
+    background-image: url("https://radioimg.s3.amazonaws.com/womcfm/r_thelionking2019_payoff_ddt-17464_a7c9d80b.jpeg?gvz5F5ceXB3IoLfTnjHJ6_YBWjkUvXqi");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 38px;
+}
+.lionking-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+    width: 257px;
 }
 
