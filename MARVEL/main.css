@@ -35,7 +35,7 @@ ul {
     margin: 0;
     padding-top: 5px;
     padding-bottom: 0px;
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
 .active {
@@ -50,7 +50,6 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 38px;
 }
 .lionking-text {
     text-align: center;
