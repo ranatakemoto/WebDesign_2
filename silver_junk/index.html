@@ -192,17 +192,28 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
+                    <h5 class="modal-title">Join Our Newsletter!</h5>
                     <button type="button" class="close js-modal-close" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="modal-body pt-0">
+                    <form>
+                        <div class="form-group">
+                            <label for="validationCustom01">First name</label>
+                            <input type="text" class="form-control mb-2" id="validationCustom01" placeholder="First name" required>
+
+                            <label for="validationCustom02">Last name</label>
+                            <input type="text" class="form-control mb-2" id="validationCustom02" placeholder="Last name" required>
+
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <button type="submit" class="btn submit mb-2 py-2">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
