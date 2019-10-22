@@ -32,9 +32,16 @@
     border-bottom: 0;
 }
 
+.modal p {
+    color: #8a8a8a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
 label {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    color: rgb(59, 59, 59);
 }
 
 .submit {
