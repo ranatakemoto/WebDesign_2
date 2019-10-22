@@ -480,6 +480,12 @@ footer li a{
 
 /********************* MIN-WIDTH: 768PX *********************/
 @media(min-width:768px){
+    .submit {
+        width: 50%;
+        display: block;
+    }
+
+
     .navbar-brand {
         font-size: 26px;
     }
